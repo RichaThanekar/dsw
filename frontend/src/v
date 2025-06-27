@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Minimalist Neumorphism Theme --- */
+
+body {
+  background: linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  color: #22223b;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+}
+
+.main-neumorph-card {
+  background: #f8fafc;
+  border-radius: 2.5rem;
+  box-shadow:
+    8px 8px 24px #dbeafe,
+    -8px -8px 24px #fff;
+  padding: 3.5rem 2.5rem;
+  max-width: 1400px;   /* Increased from 950px to 1400px */
+  margin: 2rem auto;
+  border: 1.5px solid #e0e7ef;
+  transition: box-shadow 0.2s;
+}
+
+.main-neumorph-card:hover {
+  box-shadow:
+    12px 12px 32px #dbeafe,
+    -12px -12px 32px #fff;
+}
+
+.neumorph-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #3b5bdb;
+  letter-spacing: -1.5px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.neumorph-subtitle {
+  font-size: 1.35rem;
+  color: #495057;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+
+.neumorph-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.neumorph-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #364fc7;
+  margin-bottom: 0.5rem;
+  display: block;
+  letter-spacing: 0.01em;
+}
+
+.neumorph-input,
+.neumorph-select,
+.neumorph-textarea {
+  width: 100%;
+  padding: 1.1rem 1.2rem;
+  border-radius: 1.2rem;
+  border: none;
+  background: #f1f5f9;
+  box-shadow:
+    4px 4px 12px #e0e7ef,
+    -4px -4px 12px #fff;
+  font-size: 1.08rem;
+  color: #22223b;
+  margin-bottom: 0.5rem;
+  transition: box-shadow 0.2s, border 0.2s;
+  outline: none;
+}
+
+.neumorph-input:focus,
+.neumorph-select:focus,
+.neumorph-textarea:focus {
+  box-shadow:
+    0 0 0 3px #a5b4fc,
+    4px 4px 12px #e0e7ef,
+    -4px -4px 12px #fff;
+  border: 1.5px solid #a5b4fc;
+}
+
+.neumorph-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #3b5bdb 0%, #38bdf8 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1.1rem 3.2rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(59, 91, 219, 0.13);
+  border: none;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  margin-top: 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+.neumorph-btn:hover {
+  background: linear-gradient(90deg, #364fc7 0%, #0ea5e9 100%);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(59, 91, 219, 0.18);
+}
+
+.neumorph-result {
+  background: #f1f5f9;
+  border-radius: 1.8rem;
+  box-shadow:
+    4px 4px 18px #e0e7ef,
+    -4px -4px 18px #fff;
+  padding: 2.5rem 2rem;
+  margin-top: 2.5rem;
+  color: #22223b;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fade-in 0.7s;
+}
+
+.neumorph-result-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #3b5bdb;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0e7ef;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a5b4fc;
+}
+
+/* Remove old styles that may conflict */
+.glass, .glass-card, .btn-gradient, .form-input, .gradient-text, .section-header, .floating-label-group, .floating-label-input, .floating-label {
+  all: unset;
+}
