@@ -49,8 +49,3 @@ Be concise, smart, and practical like a human advisor.
 if __name__ == "__main__":
     app.run(debug=True)
 
-@app.route("/api/chat", methods=["POST"])
-def chat():
-    user_msg = request.json.get("message")
-    reply = send_message_to_agent(user_msg)
-    return jsonify({"reply": reply})

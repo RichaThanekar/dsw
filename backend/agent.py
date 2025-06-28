@@ -2,7 +2,7 @@ import requests
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 HEADERS = {
-    "Authorization": "Bearer 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",
+    "Authorization": "Bearer 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",
     "Content-Type": "application/json"
 }
 
@@ -20,13 +20,13 @@ Your task is to give a **clear, beginner-friendly insurance plan** to someone wh
 
 ---
 
-1. 👤 **About You (User Summary)**  
+1. 👤 About You (User Summary)
 → A friendly sentence or two describing the user's situation.
 
-2. 🧠 **What You Might Not Know**  
+2. 🧠 What You Might Not Know 
 → Explain common mistakes or misconceptions people at this life stage have. Educate.
 
-3. 🛡️ **Your Personalized Recommendations**  
+3. 🛡️ Your Personalized Recommendations
 → List the types of insurance they need, one by one:  
    - What it is  
    - Why it’s useful  
@@ -34,16 +34,16 @@ Your task is to give a **clear, beginner-friendly insurance plan** to someone wh
    - Approx. cost  
    - Any tips (e.g., add riders, start now)
 
-4. 🔍 **What Each Policy Means (Glossary)**  
+4. 🔍 What Each Policy Means (Glossary)  
 → 3–4 key terms explained in a friendly tone.
 
-5. 🧮 **What You Might Pay (Premium Estimate)**  
+5. 🧮 What You Might Pay (Premium Estimate)  
 → Show a table of coverage vs. estimated yearly cost
 
-6. 📈 **If Your Life Changes Later… (Future Planning)**  
+6. 📈 If Your Life Changes Later… (Future Planning)  
 → Advice if user gets married, has kids, etc.
 
-7. ✅ **Final Action Plan**  
+7. ✅ Final Action Plan 
 → A checklist-style summary (Buy this, Upgrade that...)
 
 ---
