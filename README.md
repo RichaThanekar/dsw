@@ -16,7 +16,6 @@
 
 - 🧾 Personalized insurance recommendations
 - 🧠 GenAI agent that explains decisions in plain language
-- 🔐 Secure API key usage via `.env`
 - 👨‍👩‍👧 Life stage coverage suggestions (e.g., single, married, retired)
 
 Got it! Here's the updated **One-Stop Setup Guide** with a clear note that the OpenRouter AI model used is **Mistral 7B Instruct (Free Tier)**:
