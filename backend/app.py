@@ -38,7 +38,7 @@ Use this user profile to give a smart, clear, and personalized insurance plan:
 3. 🔍 Reasoning for Each Recommendation
 4. 🧮 Estimated Premiums (rough)
 5. 📈 Future Simulation (if applicable)
-6. 📄 Final Summary (PDF-style, markdown or text format)
+6. 📄 Final Summary 
 
 Be concise, smart, and practical like a human advisor.
 """
