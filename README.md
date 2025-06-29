@@ -1,7 +1,6 @@
-# 🛡️ LifeStageCoach – Personalized Insurance Advisor Agent
+# 🛡️ InsuranceCoach – Personalized Insurance Advisor Agent 
 
-**LifeStageCoach** is a smart, friendly GenAI-based insurance advisor built especially for beginners in India. It generates customized insurance advice based on a user's profile (age, income, dependents, etc.), helping users understand what coverage they need — and why.
-
+InsuranceCoach is a smart, GenAI-powered virtual insurance advisor built for beginners.It generates tailored insurance advice based on a user's profile — helping them understand what kind of coverage they truly need, and why. 
 ---
 
 ## 🚀 Tech Stack
@@ -18,7 +17,6 @@
 - 🧠 GenAI agent that explains decisions in plain language
 - 👨‍👩‍👧 Life stage coverage suggestions (e.g., single, married, retired)
 
-Got it! Here's the updated **One-Stop Setup Guide** with a clear note that the OpenRouter AI model used is **Mistral 7B Instruct (Free Tier)**:
 
 ---
 
