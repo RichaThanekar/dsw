@@ -1,8 +1,11 @@
+import os
 import requests
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
+API_KEY = os.getenv("OPENROUTER_API_KEY")
+
 HEADERS = {
-    "Authorization": "Bearer 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",
+    "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json"
 }
 
